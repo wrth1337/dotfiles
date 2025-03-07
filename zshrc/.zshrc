@@ -13,7 +13,7 @@ source $ZSH/oh-my-zsh.sh
 HISTFILE=~/.histfile
 HISTSIZE=1000
 SAVEHIST=1000
-setopt autocd extendedglob nomatch
+setopt noautocd extendedglob nomatch
 unsetopt beep
 bindkey -v
 # End of lines configured by zsh-newuser-install
@@ -22,3 +22,7 @@ zstyle :compinstall filename '/home/benz/.zshrc'
 
 autoload -Uz compinit
 compinit
+
+# Aliases
+alias dotfiles="cd ~/dotfiles"
+
