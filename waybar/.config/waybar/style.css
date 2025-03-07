@@ -66,6 +66,7 @@ button:hover {
 #tray,
 #network,
 #mode,
+#bluetooth,
 #scratchpad {
   margin-top: 2px;
   margin-bottom: 2px;
@@ -93,6 +94,11 @@ button:hover {
 #network {
     color: @yellow;
     border-bottom: 2px solid @yellow;
+}
+
+#bluetooth {
+    color: @sapphire;
+    border-bottom: 2px solid @sapphire;
 }
 
 #idle_inhibitor {
