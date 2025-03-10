@@ -26,3 +26,6 @@ compinit
 # Aliases
 alias dotfiles="cd ~/dotfiles"
 
+
+
+pfetch
