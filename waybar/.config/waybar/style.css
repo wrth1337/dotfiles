@@ -67,6 +67,7 @@ button:hover {
 #network,
 #mode,
 #bluetooth,
+#tray,
 #scratchpad {
   margin-top: 2px;
   margin-bottom: 2px;
@@ -97,6 +98,11 @@ button:hover {
 }
 
 #bluetooth {
+    color: @sapphire;
+    border-bottom: 2px solid @sapphire;
+}
+
+#tray {
     color: @sapphire;
     border-bottom: 2px solid @sapphire;
 }
