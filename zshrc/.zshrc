@@ -23,6 +23,8 @@ zstyle :compinstall filename '/home/benz/.zshrc'
 autoload -Uz compinit
 compinit
 
+export PATH="/usr/lib/jvm/java-24-openjdk/bin:$PATH"
+
 # Aliases
 alias dotfiles="cd ~/dotfiles"
 
